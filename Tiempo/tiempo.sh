@@ -56,7 +56,7 @@ echo "$city"
 day=$(cat ~/temp.txt | tr "," "\n" | grep icon | tr "\"" " " | tr ":" " " | awk '{print $2}' | sed -n '1p'| sed -e 's/^[[:space:]]*//' -e 's/[[:space:]]*$//')
 echo "$day"
 
-imagenes="/home/kali/Downloads/days-images/*"
+imagenes="./days-images/*"
 
 for imagen in $imagenes
 do
