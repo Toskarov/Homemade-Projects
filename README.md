@@ -7,7 +7,10 @@
 
 - **Use Time**
  Position yourself in Weather directory and execute
+``chmod +x weather.sh``
 ``./weather.sh``
 
 - **And follow the instructions displayed in the terminal** 
+
+> Note: if you want change your location remove the file location.txt and execute `sudo rm /usr/bin/weather` and `./weather.sh`.
 
